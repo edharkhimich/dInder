@@ -1,6 +1,7 @@
 import React from 'react'
 import { DrawerNavigator } from 'react-navigation'
 import SplashScreen from './screens/splash.screen'
+import LoginScreen from './screens/login.screen'
 
 const Splash = {
     screen: SplashScreen,
@@ -9,11 +10,20 @@ const Splash = {
     }
 }
 
+const Login = {
+    screen: LoginScreen,
+    navigation: {
+        header: null
+    }
+}
+
 const RouteConfig = {
     initialRoute: 'Splash'
 }
+
 const AppNavigator = DrawerNavigator({
-    Splash: Splash
+    Splash: Splash,
+    Login: Login
 }, RouteConfig)
 
 export default AppNavigator
