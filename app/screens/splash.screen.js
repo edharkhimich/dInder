@@ -2,6 +2,8 @@ import React, { Component } from 'react'
 import { View, Image } from 'react-native'
 import { inject } from 'mobx-react'
 
+
+
 @inject ("stores")
 export default class SplashScreen extends Component{
     constructor(props){
