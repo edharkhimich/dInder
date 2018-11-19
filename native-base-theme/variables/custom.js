@@ -170,7 +170,7 @@ export default {
   },
 
   // Icon
-  iconFamily: "MaterialsIcons",
+  iconFamily: "MaterialIcons",
   iconFontSize: 28,
   iconHeaderSize: 24,
 

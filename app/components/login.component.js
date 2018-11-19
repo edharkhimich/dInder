@@ -7,6 +7,11 @@ import {
   Text,
   Form
 } from 'native-base'
+const dataArray = [
+  { title: "First Element", content: "Lorem ipsum dolor sit amet" },
+  { title: "Second Element", content: "Lorem ipsum dolor sit amet" },
+  { title: "Third Element", content: "Lorem ipsum dolor sit amet" }
+];
 
 import { observer } from 'mobx-react/native'
 import { observable } from 'mobx'
